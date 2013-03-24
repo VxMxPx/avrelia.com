@@ -1,0 +1,79 @@
+<!DOCTYPE HTML>
+<html lang="{{theme.lang}}">
+    <head>
+        <meta charset="UTF-8">
+        <title>{% block title %}{{site.name}}{% endblock %}</title>
+        <script>if (top !== self) top.location = self.location;</script>
+        <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=0" />
+        <link rel="stylesheet" href="{{static_url('style.css')}}" />
+        <link rel="stylesheet" href="{{static_url('pygments.css')}}" />
+        {% if site.feed -%}
+        <link rel="alternate" type="application/rss+xml" href="{{site.feed}}" title="{{site.name}}" />
+        {% else %}
+        <link rel="alternate" type="application/rss+xml" href="{{ content_url('feed.xml') }}" title="{{site.name}}" />
+        {%- endif %}
+        <!--[if lt IE 9]>
+        <script type="text/javascript" src="{{ static_url('html5shiv.js') }}"></script>
+        <![endif]-->
+        {% if theme.analytics -%}
+        <script type="text/javascript">
+            var _gaq = _gaq || [];
+            _gaq.push(['_setAccount', '{{theme.analytics}}']);
+            _gaq.push(['_trackPageview']);
+            _gaq.push(['_trackPageLoadTime']);
+            (function() {
+                var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+                ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+                var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+            })();
+        </script>
+        {%- endif %}
+        {% block afterstyle %}{% endblock %}
+    </head>
+    <body class="noclass {% block bodyclasses %}{% endblock %}">
+        <header id="header">
+            {% block header -%}
+            {%- block nav %}
+            <nav id="nav" role="navigation">
+                <h1 id="brand"><a href="/">{{site.name}}</a></h1>
+                {% for item in theme.navigation %}
+                <a href="{{item.link}}">{{item.title}}</a>
+                {%- endfor %}
+            </nav>
+            {%- endblock %}
+            {%- endblock %}
+        </header>
+
+        <div id="main">
+            <div class="container">
+                {%- block main %}
+                {% endblock -%}
+            </div>
+        </div>
+
+        <footer id="footer">
+            {%- block footer %}
+            <hr class="end" />
+            <p class="copyright">
+            <span class="software">
+                Powered by <a href="{{system.homepage}}">{{system.name}}</a>.
+            </span>
+            <br>
+            <span class="versions">
+                This is v6, see older versions:
+                <a href="http://cv.avrelia.com">cv</a>,
+                <a href="http://v5.avrelia.com">v5</a>,
+                <a href="http://v4.avrelia.com">v4</a>,
+                <a href="http://v3.avrelia.com">v3</a>,
+                <a href="http://v2.avrelia.com">v2</a>,
+                <a href="http://v1.avrelia.com">v1</a>.
+            </span>
+            </p>
+            {%- endblock %}
+        </footer>
+
+        {%- block beforejs %}{% endblock %}
+        <script type="text/javascript" src="{{ static_url('mobile.js') }}"></script>
+        {% block afterjs %}{% endblock %}
+    </body>
+</html>
