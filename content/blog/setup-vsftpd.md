@@ -17,7 +17,9 @@ Change the config file for vsftpd
 
 Make at least the following changes
 
-	local_enable=YES<br />write_enable=YES<br />chroot_local_user=YES
+	local_enable=YES
+	write_enable=YES
+	chroot_local_user=YES
 
 Restart the vsftpd service
 
@@ -25,7 +27,8 @@ Restart the vsftpd service
 
 Create a local user so people can authenticate when trying to connect to the FTP server
 
-	useradd username<br /><span>passwd username</span>
+	useradd username
+	passwd username
 
 Add user's directory to /home and chmod it to
 
@@ -33,4 +36,5 @@ Add user's directory to /home and chmod it to
 
 If you want users to be able to upload files and create folders use following commands
 
-	chmod g-w /home/user-dir<br />chown root:username /home/user-dir
+	chmod g-w /home/user-dir
+	chown root:username /home/user-dir
