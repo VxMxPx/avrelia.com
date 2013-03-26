@@ -1,6 +1,7 @@
 # Use chroot to update Ubuntu
 
-- source: https://help.ubuntu.com/community/LiveCdRecovery http://www.tuxgarage.com/2011/07/creating-chroot-ubuntu.html
+- source: https://help.ubuntu.com/community/LiveCdRecovery
+- source: http://www.tuxgarage.com/2011/07/creating-chroot-ubuntu.html
 - slug: use-chroot-to-update-ubuntu
 - date: 2013-03-26
 - tags: ubuntu, gnu-linux
