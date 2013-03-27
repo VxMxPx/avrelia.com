@@ -44,7 +44,11 @@
         </span>
 
         {%if post.source%}
-        <br><span class="entry-meta">Source: <a href="{{post.source}}">{{post.source}}</a></span>
+            {% set post_source = post.source|split_soruces %}
+            <br><span class="entry-meta">Sources:</span>
+            {% for source in post_source -%}
+                <br><a href="{{source}}">{{source}}</a>
+            {%- endfor %}
         {%endif%}
     </div>
 

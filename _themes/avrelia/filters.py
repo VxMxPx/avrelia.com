@@ -9,3 +9,7 @@ def description(key):
     if key not in dct:
         return ''
     return dct[key]
+
+
+def split_soruces(sources):
+    return sources.split('||')
