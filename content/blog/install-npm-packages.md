@@ -8,12 +8,16 @@
 
 Install npm with following command:
 
-	sudo apt-get install npm
-
+````bash
+sudo apt-get install npm
+````
 Install npm packages either globally:
 
-	sudo npm install -g <package name>
-
+````bash
+sudo npm install -g <package name>
+````
 ... or locally:
 
-	npm install <package name>
+````bash
+npm install <package name>
+````

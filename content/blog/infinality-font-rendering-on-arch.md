@@ -10,9 +10,13 @@
 The infinality patchset aims to greatly improve freetype2 font rendering.<br>
 Install it with `yaourt`:
 
-	yaourt freetype2-infinality
-	yaourt fontconfig-infinality
+````bash
+yaourt freetype2-infinality
+yaourt fontconfig-infinality
+````
 
 ... and set style:
 
-	infctl setstyle [linux|osx|osx2|win7]
+````bash
+infctl setstyle [linux|osx|osx2|win7]
+````

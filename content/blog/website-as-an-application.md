@@ -12,20 +12,24 @@ We'll assume you're using Google Chrome, and the entry in the example will be fo
 
 Create a new file with following content and save it into the folder `~/.local/share/applications`
 
-	#!/usr/bin/env xdg-open
-	[Desktop Entry]
-	Version=1.0
-	Type=Application
-	Terminal=false
-	Icon[en]=/usr/share/icons/Faenza/apps/96/twitter.png
-	Exec=/opt/google/chrome/google-chrome --app=https://twitter.com/
-	Name[en]=Twitter
-	Name=Twitter
-	Icon=/usr/share/icons/Faenza/apps/96/twitter.png
-	StartupWMClass=twitter.com
+````ini
+#!/usr/bin/env xdg-open
+[Desktop Entry]
+Version=1.0
+Type=Application
+Terminal=false
+Icon[en]=/usr/share/icons/Faenza/apps/96/twitter.png
+Exec=/opt/google/chrome/google-chrome --app=https://twitter.com/
+Name[en]=Twitter
+Name=Twitter
+Icon=/usr/share/icons/Faenza/apps/96/twitter.png
+StartupWMClass=twitter.com
+````
 
 To get `StartupWMClass` use following command, and click on windows for which class you want to find out:
 
-	xprop WM_CLASS
+````bash
+xprop WM_CLASS
+````
 
 ![Example of Application Website](/media/website-as-an-application.png)

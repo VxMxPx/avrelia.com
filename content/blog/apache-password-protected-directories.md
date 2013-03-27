@@ -11,13 +11,17 @@
 Generate file containing all users, in our example this file will be stored
 inside `.apache2` directory, not publicly accessible:
 
-	htpasswd -c .htpasswd username
+````bash
+htpasswd -c .htpasswd username
+````
 
 Where username is the username you want to require. It will then ask you
 for the password you want to require. If you want to add another account,
 say for new_user, do this:
 
-	htpasswd .htpasswd new_user
+````bash
+htpasswd .htpasswd new_user
+````
 
 Now edit `.conf` file and add to the directory tag (the one you want to password
 protect), the following lines:

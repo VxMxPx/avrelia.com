@@ -8,13 +8,17 @@
 
 Wanna set gamma, brightness, position, ... of display?
 
-	xrandr --output LVDS1 --gamma 0.9:0.9:0.9 --brightness 1
-
+````bash
+xrandr --output LVDS1 --gamma 0.9:0.9:0.9 --brightness 1
+````
 Above example will set gamma and brightness.<br>
 To get the display name (LVDS1), run:
 
-	xrandr
-
+````bash
+xrandr
+````
 To see all options available run:
 
-	xrandr --help
+````bash
+xrandr --help
+````

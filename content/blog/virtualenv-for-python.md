@@ -8,20 +8,30 @@
 
 Install:
 
-	sudo pip install virtualenv
+````bash
+sudo pip install virtualenv
+````
 
 or, if you have Python 3.x installed, and want to use Python 2.x:
 
-	sudo pip2 install virtualenv
+````bash
+sudo pip2 install virtualenv
+````
 
 Create a new project:
 
-	virtualenv <project_name>
+````bash
+virtualenv <project_name>
+````
 
 Activate project:
 
-	source <project_name>/bin/activate
+````bash
+source <project_name>/bin/activate
+````
 
 Deactivate project _(must be run from within active project)_:
 
-	deactivate
+````bash
+deactivate
+````

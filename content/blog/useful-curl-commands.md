@@ -13,28 +13,40 @@
 
 **Get** request
 
-    curl localhost.dev
+````bash
+curl localhost.dev
+````
 
 **Post** request
 
-    curl -X POST localhost.dev
+````bash
+curl -X POST localhost.dev
+````
 
 **Put** request
 
-    curl -X PUT -d "" localhost.dev
+````bash
+curl -X PUT -d "" localhost.dev
+````
 
 **Delete** request
 
-    curl -X DELETE localhost.dev
+````bash
+curl -X DELETE localhost.dev
+````
 
 Post request with parameters
 
-    curl -d "username=marko&password=secret" localhost.dev
+````bash
+curl -d "username=marko&password=secret" localhost.dev
+````
 
 The above post type is _application/x-www-form-urlencoded_,
 for _multipart_ post you can use:
 
-    curl -L username=marko -L password=secret localhost.dev
+````bash
+curl -L username=marko -L password=secret localhost.dev
+````
 
 You can use `-v` to see output including request + response headers,
 or `-I` to fetch the HTTP-header only.
@@ -43,47 +55,65 @@ or `-I` to fetch the HTTP-header only.
 
 Download a Single File
 
-    curl http://localhost/file.txt > file.txt
+````bash
+curl http://localhost/file.txt > file.txt
+````
 
 Fetch Multiple Files at a time
 
-    curl -O url1 -O url2
+````bash
+curl -O url1 -O url2
+````
 
 Continue/Resume a Previous Download
 
-    curl -C - -O http://localhost/file.txt
+````bash
+curl -C - -O http://localhost/file.txt
+````
 
 Limit the Rate of Data Transfer<br>
 _The command bellow is limiting the data transfer to 1000 Bytes/second._
 
-    curl --limit-rate 1000B -O http://localhost/file.txt
+````bash
+curl --limit-rate 1000B -O http://localhost/file.txt
+````
 
 Download Files from FTP server
 
-    curl -u ftpuser:ftppass -O ftp://ftp_server/public_html/xss.php
+````bash
+curl -u ftpuser:ftppass -O ftp://ftp_server/public_html/xss.php
+````
 
 ## Other
 
 Follow HTTP Location Headers with -L option
 
-    curl -L http://localhost
+````bash
+curl -L http://localhost
+````
 
 Set Request Headers
 
-    curl -H "Accept: application/json" \
-         -H "Authorization: OAuth 2c3455d1aeffc" \
-         http://localhost
+````bash
+curl -H "Accept: application/json" \
+     -H "Authorization: OAuth 2c3455d1aeffc" \
+     http://localhost
+````
 
 Send a Request Body
 
-    curl -X PUT \
-         -H 'Content-Type: application/json' \
-         -d '{"firstName":"Marko", "lastName":"Gajst"}' \
-         http://localhost
+````bash
+curl -X PUT \
+     -H 'Content-Type: application/json' \
+     -d '{"firstName":"Marko", "lastName":"Gajst"}' \
+     http://localhost
+````
 
 Use a File as a Request Body
 
-    curl -X PUT \
-         -H 'Content-Type: application/json' \
-         -d @example.json \
-         http://localhost
+````bash
+curl -X PUT \
+     -H 'Content-Type: application/json' \
+     -d @example.json \
+     http://localhost
+````

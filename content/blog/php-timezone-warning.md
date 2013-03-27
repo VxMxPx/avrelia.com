@@ -12,15 +12,19 @@ After upgrade to PHP 5.4 you might come across following error:
 
 To fix it edit following files:
 
-	sudo nano /etc/php5/apache2/php.ini
-	sudo nano /etc/php5/cli/php.ini
+````bash
+sudo nano /etc/php5/apache2/php.ini
+sudo nano /etc/php5/cli/php.ini
+````
 
 Find the `date.timezone` key and correct it to be as on the example bellow:<br>
 _Don't forget to remove the semicolon in front of it!_
 
-	[Date]
-	; Defines the default timezone used by the date functions
-	; http://php.net/date.timezone
-	date.timezone = YOUR_TIMEZONE_HERE
+````ini
+[Date]
+; Defines the default timezone used by the date functions
+; http://php.net/date.timezone
+date.timezone = YOUR_TIMEZONE_HERE
+````
 
 You can find list of valid timezones on: http://php.net/manual/en/timezones.php

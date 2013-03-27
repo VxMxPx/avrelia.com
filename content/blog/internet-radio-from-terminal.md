@@ -8,4 +8,6 @@
 
 Assuming you have `mplayer` installed, add alias to `~/.bashrc` (example for Radio SI):
 
-	alias ra-si='mplayer -cache 256 http://mp3.rtvslo.si/rsi'
+````bash
+alias ra-si='mplayer -cache 256 http://mp3.rtvslo.si/rsi'
+````

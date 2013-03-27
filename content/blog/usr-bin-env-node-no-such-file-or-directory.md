@@ -10,4 +10,6 @@
 If running npm commands gives you the following error `"/usr/bin/env: node: No such file or directory"`,
 try to use  the following command to fix it:
 
-	sudo ln -s /usr/bin/nodejs /usr/bin/node
+````bash
+sudo ln -s /usr/bin/nodejs /usr/bin/node
+````

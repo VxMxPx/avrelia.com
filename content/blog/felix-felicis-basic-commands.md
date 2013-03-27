@@ -11,20 +11,28 @@
 
 Install `liquidluck` (Felix Felicis) and `tornado` (if need preview server) through `pip`:
 
-	pip install liquidluck
-	pip install tornado
+````bash
+pip install liquidluck
+pip install tornado
+````
 
 Initialize new project:
 
-	liquidluck init
+````bash
+liquidluck init
+````
 
 Create post:
 
-	nano content/hello-world.md
+````bash
+nano content/hello-world.md
+````
 
 Run testing server (if you installed tornado):
 
-	liquidluck server
+````bash
+liquidluck server
+````
 
 ## Writing
 
@@ -41,7 +49,9 @@ Common meta (I've added `source`, which I'm accessing in temple with `{{post.sou
 
 Felix Felicis supports webhook, when you push to GitHub (or BitBucket), your blog can generate itself.
 
+````bash
 	liquidluck webhook start -p 9876
+````
 
 On GitHub head over to your blog source repo admin and select Service Hooks,
 add url in following format:

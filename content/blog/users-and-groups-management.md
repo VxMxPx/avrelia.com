@@ -8,36 +8,55 @@
 
 List users
 
-	lastlog
+````bash
+lastlog
+````
 
 List user's groups
 
-	groups
+````bash
+groups
+````
 
 Add user to a specific group
 
-	usermod -G group_name -a username
+````bash
+usermod -G group_name -a username
+````
 
 List groups
 
-	cat /etc/group
+````bash
+cat /etc/group
+````
 
 Create user
 
-	adduser username<br />passwd username
+````bash
+adduser username
+passwd username
+````
 
 Delete user
 
-	userdel username
+````bash
+userdel username
+````
 
 Delete user and user's home directory
 
-	userdel -r username
+````bash
+userdel -r username
+````
 
 Create group
 
-	groupadd group_name
+````bash
+groupadd group_name
+````
 
 Delete group
 
-	groupdel group_name
+````bash
+groupdel group_name
+````

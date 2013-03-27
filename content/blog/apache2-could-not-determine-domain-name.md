@@ -14,7 +14,9 @@ If you get this error message when starting apache:
 
 Use following command:
 
+````bash
 	sudo gedit apache2.conf
+````
 
 Append to the end of the file:
 
