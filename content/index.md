@@ -60,11 +60,11 @@ in **Dublin** and working as a JavaScript developer at **Ticketfriend**.
 		<li><strong>books</strong></li>
 		<li><strong>life</strong></li>
 		<li>music</li>
-		<li>art</li>
 		<li>beauty</li>
 		<li><strong>love</strong></li>
 		<li>travelling</li>
 		<li>humor</li>
+		<li>spirituality</li>
 	</ul>
 
 	<ul style="float:left; width: 152px;">
@@ -73,11 +73,11 @@ in **Dublin** and working as a JavaScript developer at **Ticketfriend**.
 		<li><strong>peace</strong></li>
 		<li>poetry</li>
 		<li>philosophy</li>
-		<li>spirituality</li>
 	</ul>
 
 	<ul style="float:left; width: 152px;">
 		<li><strong>happiness</strong></li>
+		<li>art</li>
 	</ul>
 </div>
 
@@ -87,7 +87,8 @@ in **Dublin** and working as a JavaScript developer at **Ticketfriend**.
 <script type='text/javascript'>
 	jQuery(function($){
 		$(".tweet").tweet({
-			query: 'from:vxmxpx #dev',
+			username: 'vxmxpx',
+			// query: 'from:vxmxpx #dev',
 			count: 3,
 			loading_text: "loading tweets..."
 		});
