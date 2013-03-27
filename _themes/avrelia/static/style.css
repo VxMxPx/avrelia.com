@@ -102,8 +102,7 @@ strong {
 
 /* code and pre */
 code, tt, pre, pre code, .highlight pre {
-    background: #202020;
-    color: #e2e2e5;
+    background: #F8F8F8;
 }
 
 code,
