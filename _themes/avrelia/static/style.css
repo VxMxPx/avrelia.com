@@ -352,6 +352,7 @@ hr.entry-meta {
 /* Projects */
 .projects .project {
     display: inline-block;
+    position: relative;
     width: 145px;
     height: 70px;
     background-image: url(/static/projects_sprite.png);
@@ -359,9 +360,14 @@ hr.entry-meta {
     margin-right: 33px;
     margin-bottom: 10px;
     opacity: .8;
-    -webkit-transition: opacity .9s ease;
-    -moz-transition: opacity .9s ease;
-    transition: opacity .9s ease;
+
+    -webkit-transition: opacity .6s;
+    -moz-transition:    opacity .6s;
+    -o-transition:      opacity .6s;
+    transition:         opacity .6s;
+}
+.projects .project:hover {
+    opacity: 1;
 }
 
 .projects .project:nth-child(3n) {
@@ -372,30 +378,45 @@ hr.entry-meta {
     display: none;
 }
 
-.projects .project:hover {
+/* Animation */
+.projects .project:after {
+    content: "";
+    position: absolute;
+    top: 0; left: 0;
+    background-image: url(/static/projects_sprite.png);
+    background-repeat: no-repeat;
+    width: 145px;
+    height: 70px;
+    opacity: 0;
+    -webkit-transition: opacity .6s;
+    -moz-transition:    opacity .6s;
+    -o-transition:      opacity .6s;
+    transition:         opacity .6s;
+}
+.projects .project:hover:after {
     opacity: 1;
 }
 
 .furci { background-position: -145px 0; }
-.furci:hover { background-position: left 0; }
+.furci:after { background-position: left 0; }
 .mojipogledi { background-position: -145px -70px; }
-.mojipogledi:hover { background-position: left -70px; }
+.mojipogledi:after { background-position: left -70px; }
 .mikrospin { background-position: -145px -140px; }
-.mikrospin:hover { background-position: left -140px; }
+.mikrospin:after { background-position: left -140px; }
 .itatu { background-position: -145px -210px; }
-.itatu:hover { background-position: left -210px; }
+.itatu:after { background-position: left -210px; }
 .votebookers { background-position: -145px -280px; }
-.votebookers:hover { background-position: left -280px; }
+.votebookers:after { background-position: left -280px; }
 .bugless { background-position: -145px -350px; }
-.bugless:hover { background-position: left -350px; }
+.bugless:after { background-position: left -350px; }
 .designeron { background-position: -145px -420px; }
-.designeron:hover { background-position: left -420px; }
+.designeron:after { background-position: left -420px; }
 .newbay { background-position: -145px -490px; }
-.newbay:hover { background-position: left -490px; }
+.newbay:after { background-position: left -490px; }
 .pharmacytime { background-position: -145px -560px; }
-.pharmacytime:hover { background-position: left -560px; }
+.pharmacytime:after { background-position: left -560px; }
 .ticketfriend { background-position: -145px -630px; }
-.ticketfriend:hover { background-position: left -630px; }
+.ticketfriend:after { background-position: left -630px; }
 
 
 /* Pages Costume Styles */
