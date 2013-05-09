@@ -43,7 +43,7 @@ def split_soruces(sources):
 
 ## Sublime Text Snippet and Date Plugin
 
-In Sublime Text editor, I've added plug-in which allows me to add current date
+In Sublime Text editor, I've added plug-in which allows me to add current date (saved it as date.py) 
 by entering: YYYY-MM-DD:
 
 ````python

@@ -18,6 +18,16 @@ or, if you have Python 3.x installed, and want to use Python 2.x:
 sudo pip2 install virtualenv
 ````
 
+_If you don't have pip, you can install it with:_
+
+````bash
+# For python 2.x
+sudo pacman -S python2-pip
+
+# For python 3.x
+sudo pacman -S python-pip
+````
+
 Create a new project:
 
 ````bash
