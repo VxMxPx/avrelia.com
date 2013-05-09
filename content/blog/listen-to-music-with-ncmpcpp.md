@@ -48,7 +48,7 @@ Install Ncmpcpp:
 sudo pacman -S ncmpcpp
 ````
 
-If, after installation, `~/.ncmpcpp/config` copy it from `/usr/share/doc/ncmpcpp/config` and edit at the very least the following three configuration options:
+If after installation, `~/.ncmpcpp/config` file is missing copy it from `/usr/share/doc/ncmpcpp/config` and edit at the very least the following three configuration options:
 
 ````bash
 mpd_host # the host on which mpd resides; either "localhost" or "127.0.0.1" if on the same machine
