@@ -82,11 +82,12 @@ in **Dublin** and working as a JavaScript developer at **Ticketfriend**.
 </div>
 
 <script language="javascript" src="//ajax.googleapis.com/ajax/libs/jquery/1.6.4/jquery.min.js" type="text/javascript"></script>
-<script language="javascript" src="/static/jquery.tweet.js" type="text/javascript"></script>
+<script language="javascript" src="//share.avrelia.com/twitter/jquery.tweet.min.js" type="text/javascript"></script>
 
 <script type='text/javascript'>
 	jQuery(function($){
 		$(".tweet").tweet({
+			modpath: 'http://share.avrelia.com/twitter/',
 			username: 'vxmxpx',
 			// query: 'from:vxmxpx #dev',
 			count: 3,
