@@ -378,6 +378,11 @@ hr.entry-meta {
     display: none;
 }
 
+/* Tweet */
+.tweet_list li {
+    margin-bottom: 10px;
+}
+
 /* Animation */
 .projects .project:after {
     content: "";
