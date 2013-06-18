@@ -1,4 +1,5 @@
 #!/usr/bin/env python
+# -*- coding: utf-8 -*-
 
 # This is the modification of the original theme _moment_ by Hsiaoming Yang!
 
@@ -6,7 +7,7 @@ name = 'avrelia'
 version = '1.0'
 website = ''
 author = {
-    'name': 'Marko Gajst',
+    'name': 'Marko Gajšt',
     'website': 'http://avrelia.com',
 }
 
@@ -18,7 +19,7 @@ navigation = [
     {'title': 'About', 'link': '/about.html'},
 ]
 
-twitter = 'lepture'
+twitter = None
 github = None
 disqus = None
 analytics = None

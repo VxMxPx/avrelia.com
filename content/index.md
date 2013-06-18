@@ -1,4 +1,4 @@
-# Marko Gajst
+# Marko Gajšt
 
 - slug: index
 
@@ -8,7 +8,7 @@
 
 Hi! My name is Marko, I'm a **web-developer ~ graphic designer**, from a small European country Slovenia.
 I have been developing and designing websites since 2005. Currently I'm living
-in **Dublin** and working as a JavaScript developer at **Ticketfriend**.
+in **Dublin** <del>and working as a JavaScript developer at **Ticketfriend**</del>.
 
 <ul class="columns-3">
 	<li>follow: <a href="http://twitter.com/vxmxpx">@vxmxpx</a></li>
