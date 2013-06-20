@@ -2,6 +2,7 @@
 
 - slug: listen-to-music-with-ncmpcpp
 - date: 2013-05-09
+- category: tech
 - tags: gnu-linux
 - source: https://wiki.archlinux.org/index.php/Ncmpcpp || https://wiki.archlinux.org/index.php/Music_Player_Daemon
 

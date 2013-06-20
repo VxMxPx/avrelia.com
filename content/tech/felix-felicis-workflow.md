@@ -2,6 +2,7 @@
 
 - slug: felix-felicis-workflow
 - date: 2013-03-27
+- category: tech
 - tags: python, www-dev
 - source: http://jinja.pocoo.org/docs/ ||
           http://docs.sublimetext.info/en/latest/reference/snippets.html ||

@@ -2,6 +2,7 @@
 
 - slug: useful-curl-commands
 - date: 2013-03-27
+- category: tech
 - tags: gnu-linux, www-dev
 - source: https://httpkit.com/resources/HTTP-from-the-Command-Line/ ||
           http://stackoverflow.com/questions/8144777/curl-command-for-issuing-a-post-request ||

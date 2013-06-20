@@ -2,7 +2,7 @@
   "site": {
     "name": "Marko Gajšt",
     "url": "http://avrelia.com/",
-    "prefix": "blog"
+    "prefix": "r"
   },
 
   "config": {
@@ -10,11 +10,11 @@
     "output": "deploy",
     "static": "deploy/static",
     "static_prefix": "/static/",
-    "permalink": "{{date.year}}/{{filename}}.html",
+    "permalink": "{{category}}/{{date.year}}/{{filename}}.html",
     "relative_url": false,
     "perpage": 30,
     "feedcount": 20,
-    "timezone": "+00:00"
+    "timezone": "+02:00"
   },
 
   "author": {
@@ -55,7 +55,7 @@
     "name": "avrelia",
     "vars": {
       "navigation": [
-        {"title": "Blog", "link": "/blog/"}
+        {"title": "Microblog!", "link": "/r/tech/", "class": "bubble"}
       ]
     }
   },

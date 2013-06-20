@@ -2,6 +2,7 @@
 
 - slug: display-settings-with-xrandr
 - date: 2012-10-31
+- category: tech
 - tags: gnu-linux
 
 --------------

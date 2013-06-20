@@ -1,5 +1,6 @@
 # Apache Password Protected Directories
 
+- category: tech
 - tags: apache, gnu-linux, www-dev
 - date: 2012-10-30
 - slug: apache-password-protected-directories

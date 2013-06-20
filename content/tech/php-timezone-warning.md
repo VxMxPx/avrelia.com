@@ -2,6 +2,7 @@
 
 - slug: php-timezone-warning
 - date: 2012-11-14
+- category: tech
 - tags: php, apache
 
 ----------------------------

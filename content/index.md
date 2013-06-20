@@ -8,7 +8,7 @@
 
 Hi! My name is Marko, I'm a **web-developer ~ graphic designer**, from a small European country Slovenia.
 I have been developing and designing websites since 2005. Currently I'm living
-in **Dublin** <del>and working as a JavaScript developer at **Ticketfriend**</del>.
+in **Dublin** <del datetime="2013-05-15T08:00:00Z">and working as a JavaScript developer at **Ticketfriend**</del>.
 
 <ul class="columns-3">
 	<li>follow: <a href="http://twitter.com/vxmxpx">@vxmxpx</a></li>
@@ -54,7 +54,7 @@ in **Dublin** <del>and working as a JavaScript developer at **Ticketfriend**</de
 ## Me
 
 <div>
-	<ul style="float:left; width: 152px;">
+	<ul class="columns">
 		<li><strong>inspiration</strong></li>
 		<li>nature</li>
 		<li><strong>books</strong></li>
@@ -67,7 +67,7 @@ in **Dublin** <del>and working as a JavaScript developer at **Ticketfriend**</de
 		<li>spirituality</li>
 	</ul>
 
-	<ul style="float:left; width: 152px;">
+	<ul class="columns">
 		<li><strong>health</strong></li>
 		<li>writing</li>
 		<li><strong>peace</strong></li>
@@ -75,7 +75,7 @@ in **Dublin** <del>and working as a JavaScript developer at **Ticketfriend**</de
 		<li>philosophy</li>
 	</ul>
 
-	<ul style="float:left; width: 152px;">
+	<ul class="columns">
 		<li><strong>happiness</strong></li>
 		<li>art</li>
 	</ul>

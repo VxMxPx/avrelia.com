@@ -3,6 +3,7 @@
 - slug: infinality-font-rendering-on-arch
 - date: 2013-02-02
 - source: https://wiki.archlinux.org/index.php/Font_Configuration#Infinality
+- category: tech
 - tags: gnu-linux, arch
 
 --------------------

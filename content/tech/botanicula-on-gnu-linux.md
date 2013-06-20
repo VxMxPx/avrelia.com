@@ -2,6 +2,7 @@
 
 - slug: botanicula-on-gnu-linux
 - date: 2013-06-08
+- category: tech
 - tags: gnu-linux, games
 - source: http://appdb.winehq.org/objectManager.php?sClass=version&iId=25119
 

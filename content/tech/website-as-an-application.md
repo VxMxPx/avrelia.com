@@ -2,6 +2,7 @@
 
 - slug: website-as-an-application
 - date: 2012-11-11
+- category: tech
 - tags: gnu-linux, gnome
 
 --------------------------------

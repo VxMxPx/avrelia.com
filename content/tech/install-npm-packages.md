@@ -2,6 +2,7 @@
 
 - slug: install-npm-packages
 - date: 2012-11-18
+- category: tech
 - tags: node, js, gnu-linux, www-dev
 
 ---------------------------------

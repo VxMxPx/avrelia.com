@@ -2,6 +2,7 @@
 
 - slug: zen-terminal
 - date: 2012-11-01
+- category: tech
 - tags: gnu-linux
 
 -------------------------

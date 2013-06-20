@@ -2,6 +2,7 @@
 
 - slug: skype-in-cli
 - date: 2013-05-10
+- category: tech
 - tags: gnu-linux
 
 -----------------

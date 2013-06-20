@@ -4,6 +4,7 @@
           http://www.tuxgarage.com/2011/07/creating-chroot-ubuntu.html
 - slug: use-chroot-to-update-ubuntu
 - date: 2013-03-26
+- category: tech
 - tags: ubuntu, gnu-linux
 
 ---------------------------------

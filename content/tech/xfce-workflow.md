@@ -2,6 +2,7 @@
 
 - slug: xfce-workflow
 - date: 2013-05-12
+- category: tech
 - tags: gnu-linux
 - source: http://www.xfce.org/ 
        || https://wiki.archlinux.org/index.php/Xfce

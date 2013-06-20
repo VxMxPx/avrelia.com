@@ -8,10 +8,10 @@
 
 {% block main -%}
 <div class="hentry"{%if post.review%} itemscope itemtype="http://data-vocabulary.org/Review"{%endif%}>
-    <h1 class="entry-title">
-        <a href="/blog/" title="Back to Blog">&larr;</a>
+    <h2 class="entry-title">
+        <a href="/r/{{post.category}}/" title="Back to Blog">&larr;</a>
         {{post.title}}
-    </h1>
+    </h2>
 
     <div class="entry-content"{%if post.review%} itemprop="description"{%endif%}>
         {{post.content}}

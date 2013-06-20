@@ -3,6 +3,7 @@
 - slug: apache2-could-not-determine-domain-name
 - date: 2012-11-16
 - source: http://xubuntugeek.blogspot.ie/2012/07/solved-apache2-could-not-reliably.html
+- category: tech
 - tags: apache, gnu-linux
 
 -------------------------------

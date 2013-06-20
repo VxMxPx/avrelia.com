@@ -2,6 +2,7 @@
 
 - slug: virtualenv-for-python
 - date: 2013-03-24
+- category: tech
 - tags: python, www-dev, gnu-linux
 
 ------------------
