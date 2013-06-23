@@ -174,7 +174,11 @@ hr.end {
 }
 
 ::selection {
-    background: rgba(240,17,68,0.8);
+    background: rgba(228,0,41,0.8);
+    color: #fff;
+}
+::-moz-selection {
+    background: rgba(228,0,41,0.8);
     color: #fff;
 }
 .container {
