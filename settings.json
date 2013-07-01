@@ -2,7 +2,8 @@
   "site": {
     "name": "Marko Gajšt",
     "url": "http://avrelia.com/",
-    "prefix": "r"
+    "prefix": "r",
+	"feed": "http://avrelia.com/r/feed.xml"
   },
 
   "config": {
