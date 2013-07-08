@@ -106,9 +106,16 @@ a {
     text-decoration: none;
     overflow: hidden;
     word-wrap: break-word;
-    border-bottom: 1px dotted #eef;
-    border-bottom: 1px dotted rgba(0,0,10,.1);
+    border-bottom: 1px dotted #dde;
+    border-bottom: 1px dotted rgba(0,0,0,.3);
 }
+/*.entry-list a.post-link,*/
+/*.hentry .entry-content a {*/
+    /*color: #BE0007;*/
+    /*border-bottom: 1px dotted #bbe;*/
+/*}*/
+.entry-list a.post-link:hover,
+.hentry .entry-content a:hover,
 a:hover {
     color: #BE0007;
     background-color: #FFD;

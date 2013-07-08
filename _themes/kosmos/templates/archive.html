@@ -20,7 +20,7 @@
     {%- endif %}
     <li class="entry-item">
         <time class="updated" datetime="{{item.date|xmldatetime}}">{{item.date.strftime('%Y-%m-%d')}}</time>
-        <a href="{{item|permalink}}">{{item.title}}</a>
+        <a href="{{item|permalink}}" class="post-link">{{item.title}}</a>
         <small><a href="/r/{{item.category}}/">#{{item.category}}</a></small>
     </li>
     {% endfor %}
