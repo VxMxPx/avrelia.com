@@ -1,5 +1,5 @@
 @import url(http://fonts.googleapis.com/css?family=PT+Serif:400,700,400italic|PT+Serif+Caption|PT+Mono);
-
+/*600*/
 html {
     background-color: #fafafa;
 }
@@ -494,6 +494,46 @@ ul.columns {
 
 .tagcloud {
     margin-top: 45px;
+}
+
+/*Small screen optimized*/
+@media (max-width:600px){
+    body {
+        font-size: 14px;
+    }
+    h1 {
+        font-size: 28px;
+        margin: 25px 0 15px;
+    }
+    h2 {
+        font-size: 20px;
+        margin: 20px 0 15px;
+    }
+    h3 {
+        font-size: 18px;
+        margin: 20px 0 10px;
+    }
+    code,
+    tt {
+      font-size: 14px;
+    }
+    pre {
+      font-size: 14px;
+    }
+    .entry-meta,
+    .entry-meta * {
+        font-size: 12px !important;
+    }
+    #footer .copyright, #footer .system-info {
+        font-size: 12px;
+    }
+}
+@media (max-width:420px){
+    .columns-3 {
+        -moz-column-count: 1;
+        -webkit-column-count: 1;
+        column-count: 1;
+    }
 }
 
  /*Pygments */
