@@ -534,6 +534,13 @@ ul.columns {
         -webkit-column-count: 1;
         column-count: 1;
     }
+    .entry-item a {
+        display: block;
+    }
+    .entry-item small {
+        float: none;
+        display: block;
+    }
 }
 
  /*Pygments */
