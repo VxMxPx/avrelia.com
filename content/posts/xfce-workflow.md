@@ -4,14 +4,12 @@
 - date: 2013-05-12
 - category: tech
 - tags: gnu-linux
-- source: http://www.xfce.org/ 
+- source: http://www.xfce.org/
        || https://wiki.archlinux.org/index.php/Xfce
        || https://wiki.archlinux.org/index.php/GDM
        || http://tools.suckless.org/dmenu/
 
 -----------------
-
-## Basic setup Xfce + GDM
 
 Xfce is a lightweight desktop environment for UNIX-like operating systems. It aims to be fast and low on system resources, while still being visually appealing and user friendly.
 
@@ -181,7 +179,7 @@ Alt+Insert     Add workspace
 Alt+Delete     Delete last workspace
 ````
 
-Add a file `~/.config/pytyle3/keybind.py` with the following content: 
+Add a file `~/.config/pytyle3/keybind.py` with the following content:
 
 ````python
 import state

@@ -53,10 +53,10 @@
   },
 
   "theme": {
-    "name": "avrelia",
+    "name": "kosmos",
     "vars": {
       "navigation": [
-        {"title": "Microblog!", "link": "/r/tech/", "class": "bubble"}
+        {"title": "Microblog!", "link": "/r/", "class": "bubble"}
       ]
     }
   },

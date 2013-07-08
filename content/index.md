@@ -7,16 +7,16 @@
 ## About Me
 
 Hi! My name is Marko, I'm a **web-developer ~ graphic designer**, from a small European country Slovenia.
-I have been developing and designing websites since 2005. Currently I'm living
-in **Dublin** <del datetime="2013-05-15T08:00:00Z">and working as a JavaScript developer at **Ticketfriend**</del>.
+I have been developing and designing websites since 2005. <del datetime="2013-05-15T08:00:00Z">Currently I'm living
+in **Dublin** and working as a JavaScript developer at **Ticketfriend**</del>.
 
 <ul class="columns-3">
-	<li>follow: <a href="http://twitter.com/vxmxpx">@vxmxpx</a></li>
-	<li>fork: <a href="https://github.com/vxmxpx">github/vxmxpx</a></li>
-	<li>mail: <a href="mailto:m@avrelia.com">m@avrelia.com</a></li>
+	<li>follow:<br><a href="http://twitter.com/vxmxpx">@vxmxpx</a></li>
+	<li>fork:<br><a href="https://github.com/vxmxpx">github/vxmxpx</a></li>
+	<li>say hi:<br><a href="mailto:m@avrelia.com">m@avrelia.com</a></li>
 </ul>
 
-## Skills / Interests
+## Skills & Interests
 
 <ul class="columns-3">
 	<li><strong>javascript</strong></li>
@@ -32,7 +32,7 @@ in **Dublin** <del datetime="2013-05-15T08:00:00Z">and working as a JavaScript d
 	<li>git</li>
 </ul>
 
-## Projects / Companies
+## Projects & Companies
 
 <ul class="projects">
 	<li class="project ticketfriend"><span>Ticketfriend</span></li>

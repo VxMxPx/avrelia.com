@@ -27,7 +27,8 @@ and add:
 
 ````python
 def split_soruces(sources):
-    return sources.split('||')
+    sources = sources.split('||')
+    return [source.strip() for source in sources]
 ````
 
 ...and then in `templates\post.html` add:
@@ -44,7 +45,7 @@ def split_soruces(sources):
 
 ## Sublime Text Snippet and Date Plugin
 
-In Sublime Text editor, I've added plug-in which allows me to add current date (saved it as date.py) 
+In Sublime Text editor, I've added plug-in which allows me to add current date (saved it as date.py)
 by entering: YYYY-MM-DD:
 
 ````python
