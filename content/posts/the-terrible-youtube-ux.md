@@ -28,7 +28,7 @@ For me, however, even this didn't help, so I had to actually delete my Google+ a
 
 While for some of the things mentioned might be pretty good explanation, they're still very annoying. I have feeling that experience on YouTube couple of years ago was better than today; regarding the second point, it absolutely was.
 
-Bad UX, however, it's not even [the worst sin of the YouTube](http://www.dailydot.com/news/nbc-julian-assange-dmca-takedown/).
+Bad UX, however, it's not even [the worst sin of YouTube](http://www.dailydot.com/news/nbc-julian-assange-dmca-takedown/).
 
 Some healthy competition on this field would be welcome; there are sites which offer similar service to YouTube, like [Blip.tv](http://blip.tv) and [Vimeo.com](http://vimeo.com), I only hope that more users (above all, content creators) will migrate there, or anywhere else. Well, it actually seems that at Google, with their [somehow odd decisions](http://www.youtube.com/watch?v=H8tzL2yVzHE) are helping this to happen.
 
