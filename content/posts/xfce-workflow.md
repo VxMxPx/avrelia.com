@@ -66,7 +66,7 @@ Please read on to see how to attach the `dmenu_run` command to a keystroke combi
 
 ## Other
 
-For music I'm using [Ncmpcpp](/blog/2013/listen-to-music-with-ncmpcpp.html) and for my Skyping [Finch](/blog/2013/skype-in-cli.html).
+For music I'm using [Ncmpcpp](/r/tech/2013/listen-to-music-with-ncmpcpp.html) and for my Skyping [Finch](/r/tech/2013/skype-in-cli.html).
 
 I've added only one panel to Xfce, on the top of the screen, and set _Row Size_ to be _18px_. I've also added a little bit of style to it (create file `~/.gtkrc-2.0`) with following content:
 
