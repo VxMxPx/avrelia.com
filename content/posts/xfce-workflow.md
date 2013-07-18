@@ -34,7 +34,8 @@ yaourt pytyle3
 
 There's a bug though, when you press `MOD+L` or `MOD+K` or `MOD+Enter`, pytyle will crush.
 
-I've patched this bug, you can apply the patch by executing:
+I've patched this bug, <del datetime="2013-07-13T22:00:00Z">you can apply the patch by executing:</del><br />
+<ins datetime="2013-05-15T08:00:00Z">Actually this was merged with upstream, so I suppose you can ignore the steps bellow.</ins>
 
 ````bash
 sudo su
