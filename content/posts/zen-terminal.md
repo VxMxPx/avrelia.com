@@ -8,7 +8,7 @@
 
 ![GNU/Linux Terminal](/media/zen-terminal.png)
 
-If you'd like to have terminal as on the picture above, then simply edit
+If you'd like to have terminal as on the picture above (brackets, new line for command, pointer instead of a dollar sign), then simply edit
 your `~/.bashrc` file, and insert following code around line 60 (or just at the end):
 
 ````bash
