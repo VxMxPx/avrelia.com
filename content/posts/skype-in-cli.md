@@ -8,7 +8,7 @@
 
 Finch - A Pimpin' Penguin console frontend to libpurple. Instant Messaging client, which runs in a terminal.
 
-**Please note, Skype must be running in the background in order for Finch to work.**
+**Please note:** Unfortunately Skype must be running in the background in order for Finch to work.
 
 ![Skype in CLI](/media/skype-in-cli.png)
 
