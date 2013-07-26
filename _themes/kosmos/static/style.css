@@ -197,11 +197,11 @@ hr.end {
 }
 
 ::selection {
-    background: rgba(228,0,41,0.8);
+    background: rgba(190,0,7,0.8);
     color: #fff;
 }
 ::-moz-selection {
-    background: rgba(228,0,41,0.8);
+    background: rgba(190,0,7,0.8);
     color: #fff;
 }
 .container {
