@@ -1,9 +1,8 @@
 # Internet Radio From Terminal
 
 - slug: internet-radio-from-terminal
-- category: tech
-- tags: gnu-linux
 - date: 2013-03-24
+- tags: gnu-linux, tech, cli
 
 -------------------------
 

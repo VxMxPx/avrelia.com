@@ -44,6 +44,13 @@ h2 a:hover {
     /*background-color: transparent;*/
 }
 
+h2 sup a {
+    color: #999;
+    font-size: 12px;
+    top: -6px;
+    position: relative;
+}
+
 /* block level */
 blockquote {
     border-left: 0.4em solid #ddd;
@@ -314,6 +321,9 @@ hr.entry-meta {
 .entry-meta a:hover, .updated a:hover {
     color: #BE0007;
 }
+.entry-meta ul {
+    margin: 0;
+}
 .entry-tags {
     margin: 20px 0;
 }
@@ -340,10 +350,15 @@ hr.entry-meta {
 }
 .entry-item small {
     float: right;
+    margin-top: .3em;
 }
+.entry-item small,
 .entry-item small a {
     font-size: 16px;
     color: #999;
+}
+.entry-item .tag-list a {
+    margin: .2em 0 .2em .2em;
 }
 .entry-item small a:hover {
     color: #BE0007;
@@ -374,12 +389,12 @@ hr.entry-meta {
     top: 0;
     right: 0;
 }
-.tagcloud a {
+.tagcloud .tags a {
     display: inline-block;
-    margin: .2em .4em;
+    margin: .1em .4em;
     opacity: 0.6;
 }
-.tagcloud a:hover {
+.tagcloud .tags a:hover {
     opacity: 1;
 }
 .tagcloud .count {

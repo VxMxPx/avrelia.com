@@ -36,10 +36,7 @@
             {%- block nav %}
             <nav id="nav" role="navigation">
                 <h1 id="brand"><a href="/">{{site.name}}</a></h1>
-                I'm writing a
-                {% for item in theme.navigation %}
-                <a href="{{item.link}}" class="{{item.class}}">{{item.title}}</a>
-                {%- endfor %}
+                I'm writing a <a href="{{ content_url(site.prefix, 'index.html') }}">Microblog</a>!
             </nav>
             {%- endblock %}
             {%- endblock %}

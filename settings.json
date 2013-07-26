@@ -3,7 +3,7 @@
     "name": "Marko Gajšt",
     "url": "http://avrelia.com/",
     "prefix": "r",
-	"feed": "http://avrelia.com/r/feed.xml"
+    "feed": "http://avrelia.com/r/feed.xml"
   },
 
   "config": {
@@ -11,7 +11,7 @@
     "output": "deploy",
     "static": "deploy/static",
     "static_prefix": "/static/",
-    "permalink": "{{category}}/{{date.year}}/{{filename}}.html",
+    "permalink": "{{date.year}}/{{filename}}.html",
     "relative_url": false,
     "perpage": 30,
     "feedcount": 20,
@@ -55,9 +55,8 @@
   "theme": {
     "name": "kosmos",
     "vars": {
-      "navigation": [
-        {"title": "Microblog!", "link": "/r/", "class": "bubble"}
-      ]
+      "navigation": [],
+      "main_tags": ["tech", "traveling", "society", "privacy"]
     }
   },
 

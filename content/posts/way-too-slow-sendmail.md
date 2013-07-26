@@ -2,8 +2,7 @@
 
 - slug: way-too-slow-sendmail
 - date: 2012-10-30
-- category: tech
-- tags: www-dev, gnu-linux
+- tags: gnu-linux, server, tech
 - source: http://www.samay.info/blog/2009/08/sendmail-working-slow-in-ubuntu/
 
 ---------------------------

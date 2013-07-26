@@ -4,11 +4,20 @@
 
 {% block main %}
 <nav class="tagcloud">
-    {% for tag in tags -%}
-    {%- set items = tags[tag] -%}
-    <a href="#{{tag}}">{{tag}}<span class="count">({{items|length}})</span></a>
-    {%- endfor %}
+    <h2>
+        <a href="{{ content_url(site.prefix, 'index.html') }}" title="Display all posts!">&times;</a>
+        Available tags
+    </h2>
+    <div class="tags">
+        {% for tag in tags -%}
+        {%- set items = tags[tag] -%}
+        {%- if tag in theme.main_tags -%}<strong>{%- endif -%}
+        <a href="{{ content_url(site.prefix, 'tag', tag, 'index.html') }}">{{tag}}<span class="count">({{items|length}})</span></a>
+        {%- if tag in theme.main_tags -%}</strong>{%- endif -%}
+        {%- endfor %}
+    </div>
 </nav>
+<h2>Posts by Tag:</h2>
 <ul class="entry-list">
     {% for tag in tags -%}
     {%- set items = tags[tag] -%}

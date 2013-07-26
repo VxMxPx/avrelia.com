@@ -2,8 +2,7 @@
 
 - slug: too-many-dictionaries-in-firefox
 - date: 2013-07-13
-- category: tech
-- tags: gnu-linux
+- tags: gnu-linux, tech
 - source: https://wiki.archlinux.org/index.php/Firefox
 
 -----------------

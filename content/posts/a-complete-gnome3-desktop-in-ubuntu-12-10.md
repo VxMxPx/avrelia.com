@@ -1,11 +1,9 @@
 # A Complete GNOME 3 Desktop in Ubuntu 12.10
 
-- tags: gnome, gnu-linux
-- category: tech
-- source: http://www.webupd8.org/2012/10/how-to-get-complete-gnome-3-desktop-in.html
-- date: 2012-10-30
 - slug: a-complete-gnome3-desktop-in-ubuntu-12-10
-- author: marko
+- date: 2012-10-30
+- tags: gnome, gnu-linux, tech, ubuntu
+- source: http://www.webupd8.org/2012/10/how-to-get-complete-gnome-3-desktop-in.html
 
 --------------------
 

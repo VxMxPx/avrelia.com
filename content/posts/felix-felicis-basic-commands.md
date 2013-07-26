@@ -1,10 +1,9 @@
 # Felix Felicis Basic Commands
 
 - slug: felix-felicis-basic-commands
-- source: http://liquidluck.readthedocs.org/en/latest/
 - date: 2013-03-25
-- category: tech
-- tags: www-dev
+- tags: www-dev, tech, python
+- source: http://liquidluck.readthedocs.org/en/latest/
 
 -------------------------------------
 

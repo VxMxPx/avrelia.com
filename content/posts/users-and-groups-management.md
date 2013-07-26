@@ -2,8 +2,7 @@
 
 - slug: users-and-groups-management
 - date: 2012-11-06
-- category: tech
-- tags: gnu-linux
+- tags: gnu-linux, tech
 
 -------------------
 

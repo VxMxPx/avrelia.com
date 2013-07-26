@@ -2,14 +2,13 @@
 
 - slug: renaming-multiple-files
 - date: 2013-06-23
-- category: tech
-- tags: gnu-linux
+- tags: gnu-linux, tech, cli
 
 -----------------
 
 We're all familiar with `mv` command for simple renaming or moving of files in bash.
 
-I recently however needed to change extension for multiple files; for such task 
+I recently however needed to change extension for multiple files; for such task
 one of the easiest commands is `rename`, lets see some examples from the manual:
 
 ````bash

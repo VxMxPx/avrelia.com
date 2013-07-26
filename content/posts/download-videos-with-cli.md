@@ -2,8 +2,7 @@
 
 - slug: download-videos-with-cli
 - date: 2013-07-08
-- category: tech
-- tags: gnu-linux
+- tags: gnu-linux, tech, cli
 
 -----------------
 
@@ -11,7 +10,7 @@ We can use a small command-line program called `youtube-dl` for this purpose. Th
 
 But first of all, **why would you actually need this?** Here's couple of (probably not all of) reasons:
 
-- the YouTube UX [ain't exactly the best](/r/opinion/2013/the-terrible-youtube-ux.html),
+- the YouTube UX [ain't exactly the best](the-terrible-youtube-ux.html),
 - traveling to no-internet areas,
 - care about your privacy (conditionally),
 - don't wanna use non-free software.

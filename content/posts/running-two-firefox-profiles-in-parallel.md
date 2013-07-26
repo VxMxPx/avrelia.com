@@ -2,8 +2,7 @@
 
 - slug: running-two-firefox-profiles-in-parallel
 - date: 2013-07-17
-- category: tech
-- tags: gnu-linux
+- tags: gnu-linux, tech, www-dev
 
 -----------------
 
@@ -21,7 +20,7 @@ firefox -P
 Through GUI I've added the second profile, named it `Developer` and saved it to the suggested location.
 I've also renamed the default profile from `default` to `Default` (I've just capitalized it).
 
-Finally I've added shortcuts, that wasn't hard since I'm using [dmenu](/r/tech/2013/xfce-workflow.html#toc_1):
+Finally I've added shortcuts, that wasn't hard since I'm using [dmenu](xfce-workflow.html#toc_1):
 
 I've created _developer_ script in `/usr/bin` ...
 

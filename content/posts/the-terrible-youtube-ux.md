@@ -2,8 +2,7 @@
 
 - slug: the-terrible-youtube-ux
 - date: 2013-07-08
-- category: opinion
-- tags: critique
+- tags: critique, opinion, ux, tech
 
 -----------------
 

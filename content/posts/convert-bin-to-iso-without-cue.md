@@ -2,8 +2,7 @@
 
 - slug: convert-bin-to-iso-without-cue
 - date: 2013-06-14
-- category: tech
-- tags: gnu-linux
+- tags: gnu-linux, tech, cli
 
 -----------------
 

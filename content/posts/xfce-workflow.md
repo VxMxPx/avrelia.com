@@ -2,8 +2,7 @@
 
 - slug: xfce-workflow
 - date: 2013-05-12
-- category: tech
-- tags: gnu-linux
+- tags: gnu-linux, tech, arch
 - source: http://www.xfce.org/
        || https://wiki.archlinux.org/index.php/Xfce
        || https://wiki.archlinux.org/index.php/GDM
@@ -67,7 +66,7 @@ Please read on to see how to attach the `dmenu_run` command to a keystroke combi
 
 ## Other
 
-For music I'm using [Ncmpcpp](/r/tech/2013/listen-to-music-with-ncmpcpp.html) and for my Skyping [Finch](/r/tech/2013/skype-in-cli.html).
+For music I'm using [Ncmpcpp](listen-to-music-with-ncmpcpp.html) and for my Skyping [Finch](skype-in-cli.html).
 
 I've added only one panel to Xfce, on the top of the screen, and set _Row Size_ to be _18px_. I've also added a little bit of style to it (create file `~/.gtkrc-2.0`) with following content:
 

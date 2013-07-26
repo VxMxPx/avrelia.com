@@ -7,6 +7,21 @@
 {% endblock %}
 
 {% block main %}
+
+{%- if pagination.title != 'Archive' -%}
+<nav>
+    <h2>
+        <a href="{{ content_url(site.prefix, 'index.html') }}" title="Discards filter and display all posts!">&times;</a>
+        Selected tag: #{{pagination.title}}
+        <sup class="small faded">
+            <a href="{{ content_url(site.prefix, 'tag', 'index.html') }}">
+                Display all tags!
+            </a>
+        </sup>
+    </h2>
+</nav>
+{%- endif -%}
+
 <ul class="entry-list">
     {% set year = 0 -%}
     {% for item in pagination.items %}
@@ -21,7 +36,13 @@
     <li class="entry-item">
         <time class="updated" datetime="{{item.date|xmldatetime}}">{{item.date.strftime('%Y-%m-%d')}}</time>
         <a href="{{item|permalink}}" class="post-link">{{item.title}}</a>
-        <small><a href="/r/{{item.category}}/">#{{item.category}}</a></small>
+        <small class="tag-list">
+            {%- for tag in item.tags -%}
+                {% if tag in theme.main_tags %}
+                    <a href="{{ content_url(site.prefix, 'tag', tag, 'index.html') }}">#{{tag}}</a>
+                {% endif %}
+            {%- endfor -%}
+        </small>
     </li>
     {% endfor %}
 </ul>

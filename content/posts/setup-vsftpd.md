@@ -2,8 +2,7 @@
 
 - slug: setup-vsftpd
 - date: 2012-11-06
-- category: tech
-- tags: www-dev, gnu-linux
+- tags: www-dev, gnu-linux, tech, server
 - source: http://www.techrepublic.com/blog/smbit/how-to-create-an-ftp-server-on-an-ubuntu-1204-virtual-machine/355
 
 -----------------
