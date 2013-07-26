@@ -6,6 +6,8 @@
 
 --------------------------------
 
+![Example of Application Website](/media/website-as-an-application.png)
+
 Run any website as an regular application, meaning without the browser's
 standard tabs, address-bar, etc..
 We'll assume you're using Google Chrome, and the entry in the example will be for Twitter.
@@ -31,5 +33,3 @@ To get `StartupWMClass` use following command, and click on windows for which cl
 ````bash
 xprop WM_CLASS
 ````
-
-![Example of Application Website](/media/website-as-an-application.png)
