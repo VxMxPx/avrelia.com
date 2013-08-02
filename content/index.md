@@ -35,6 +35,7 @@ in **Dublin** and working as a JavaScript developer at **Ticketfriend**</del>.
 ## Projects & Companies
 
 <ul class="projects">
+	<li class="project mobiglue"><span>Mobiglue</span></li>
 	<li class="project ticketfriend"><span>Ticketfriend</span></li>
 	<li class="project pharmacytime"><span>PharmacyTime</span></li>
 	<li class="project newbay"><span>NewBay</span></li>
