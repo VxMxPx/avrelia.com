@@ -321,6 +321,30 @@ hr.entry-meta {
 .entry-meta a:hover, .updated a:hover {
     color: #BE0007;
 }
+.post-meta.entry-meta {
+    opacity: .6;
+    max-height: 30px;
+    cursor: default;
+
+    -webkit-transition: opacity .6s, max-height 2.6s ease .3s;
+    -moz-transition:    opacity .6s, max-height 2.6s ease .3s;
+    -o-transition:      opacity .6s, max-height 2.6s ease .3s;
+    transition:         opacity .6s, max-height 2.6s ease .3s;
+}
+.post-meta.entry-meta:hover {
+    opacity: 1;
+    max-height: 1400px;
+}
+.post-meta.entry-meta .entry:first-child {
+    cursor: pointer;
+    display: block;
+}
+.entry-meta .entry {
+    margin-bottom: 10px;
+}
+.entry-meta .entry:last-child {
+    margin-bottom: 0;
+}
 .entry-meta ul {
     margin: 0;
 }

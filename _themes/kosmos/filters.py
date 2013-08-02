@@ -10,6 +10,6 @@ def description(key):
     return dct[key]
 
 
-def split_soruces(sources):
-    sources = sources.split('||')
-    return [source.strip() for source in sources]
+def split_items(items):
+    items = items.split('||')
+    return [item.strip() for item in items]

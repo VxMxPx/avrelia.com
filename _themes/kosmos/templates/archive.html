@@ -13,12 +13,22 @@
     <h2>
         <a href="{{ content_url(site.prefix, 'index.html') }}" title="Discards filter and display all posts!">&times;</a>
         Selected tag: #{{pagination.title}}
-        <sup class="small faded">
+        <!-- sup class="small faded">
             <a href="{{ content_url(site.prefix, 'tag', 'index.html') }}">
                 Display all tags!
             </a>
-        </sup>
+        </sup -->
     </h2>
+    <nav class="tagcloud">
+        <div class="tags">
+            {% for tag in resource.tag -%}
+            {%- set items = resource.tag[tag] -%}
+            {%- if pagination.title == tag -%}<strong>{%- endif -%}
+            <a href="{{ content_url(site.prefix, 'tag', tag, 'index.html') }}">{{tag}}<span class="count">({{items|length}})</span></a>
+            {%- if pagination.title == tag -%}</strong>{%- endif -%}
+            {%- endfor %}
+        </div>
+    </nav>
 </nav>
 {%- endif -%}
 
