@@ -7,12 +7,13 @@
 
 -----------------
 
-The fact that I'm writing about Facebook doesn't mean that other applications are much better.
-Most of them require permissions which I can't imagine why they would need.
+When it comes to our personal information, Facebook want them all! Their android application is a <del>brilliant</del> <ins>scary</ins> example of this.
 
-However, still among applications which I've installed, Facebook absolutely is the worst example.
+The fact that I'm writing about Facebook, of course, doesn't mean that other applications are much better. Many of them require permissions which I can't imagine why they would need.
 
-Here's the list of Facebook's requests:
+However, nevertheless, among applications which I've installed, Facebook absolutely is the worst example. Bellow is the list of permissions which they ask you for, before you can install their application.
+
+## The List!
 
 **Your personal information**
 <br /><small>_read contact data, write contact data_</small>
@@ -63,5 +64,5 @@ Additionally to that, it might be used for collecting information about existing
 <br /><small>_display system-level alerts, prevent phone from sleeping, reorder running applications, retrieve running applications, write sync settings, automatically start at boot, install shortcuts, read Home settings and shortcuts, read sync settings_</small>
 <br />It will allow an application to find out what other applications are running on your phone. Typical legitimate applications that require this permission include: task killers and battery history widgets. Why does Facebook need it? It's social network application, it's not task manager. Well, introduction of _Facebook Home_ [is supposed to be the reason](https://news.ycombinator.com/item?id=5543583); the second reason (perhaps even prevailing) is probably [Facebook's creepy hunger for information about you](http://techcrunch.com/2013/06/24/creepy-facebook/).
 
-**Conclusion**
-<br />The tragedy is, that the Facebook application itself doesn't offer much of functionality (or improved UX) compared to the browser's version. In fact, it's slow, buggy and offers pretty much the same interface. So why really bother with it? It seems the main purpose of it is just to collect as much of personal information as possible. So if you're using Facebook, why not use just browser's version of it? And finally, even better, why not [just stop using Facebook all together](http://en.wikipedia.org/wiki/Criticism_of_Facebook)?
+## Conclusion
+The tragedy is, that the Facebook application itself doesn't offer much of functionality (or improved UX) compared to the browser's version. In fact, it's slow, buggy and offers pretty much the same interface. So why really bother with it? It seems the main purpose of it is just to collect as much of personal information as possible. So if you're using Facebook, why not use just browser's version of it? And finally, even better, why not [just stop using Facebook all together](http://en.wikipedia.org/wiki/Criticism_of_Facebook)?
