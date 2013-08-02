@@ -2,6 +2,7 @@
 
 - slug: zen-terminal
 - date: 2012-11-01
+- updates: 2013-07-28 Image changed.
 - tags: gnu-linux, tech, cli
 
 -------------------------

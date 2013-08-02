@@ -2,6 +2,7 @@
 
 - slug: about-facebook-application-on-android
 - date: 2013-07-19
+- updates: 2013-08-03 Introduction text polished. Headers added.
 - tags: social-networks, privacy, critique, android, tech, mobile
 - source: http://androidforums.com/android-applications/36936-android-permissions-explained-security-tips-avoiding-malware.html
 

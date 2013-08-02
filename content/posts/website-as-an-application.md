@@ -2,6 +2,7 @@
 
 - slug: website-as-an-application
 - date: 2012-11-11
+- updates: 2013-07-28 Image corrections, - crop.
 - tags: gnu-linux, gnome, tech
 
 --------------------------------
