@@ -3,6 +3,7 @@
 - slug: the-terrible-youtube-ux
 - date: 2013-07-08
 - tags: critique, opinion, ux, tech
+-updates: 2013-08-26 Change expression "content creators" to "authors".
 
 -----------------
 
@@ -29,6 +30,6 @@ While for some of the things mentioned might be pretty good explanation, they're
 
 Bad UX, however, it's not even [the worst sin of YouTube](http://www.dailydot.com/news/nbc-julian-assange-dmca-takedown/).
 
-Some healthy competition on this field would be welcome; there are sites which offer similar service to YouTube, like [Blip.tv](http://blip.tv) and [Vimeo.com](http://vimeo.com), I only hope that more users (above all, content creators) will migrate there, or anywhere else. Well, it actually seems that at Google, with their [somehow odd decisions](http://www.youtube.com/watch?v=H8tzL2yVzHE) are helping this to happen.
+Some healthy competition on this field would be welcome; there are sites which offer similar service to YouTube, like [Blip.tv](http://blip.tv) and [Vimeo.com](http://vimeo.com), I only hope that more users (above all, authors) will migrate there, or anywhere else. Well, it actually seems that at Google, with their [somehow odd decisions](http://www.youtube.com/watch?v=H8tzL2yVzHE) are helping this to happen.
 
 Bottom line: we need many providers and one good search engine for video contents. Funny, we have it for [porn](http://nudevista.com) <small>_link nsfw!_</small>, now we just need it for everything else.
