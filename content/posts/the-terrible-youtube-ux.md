@@ -3,7 +3,7 @@
 - slug: the-terrible-youtube-ux
 - date: 2013-07-08
 - tags: critique, opinion, ux, tech
--updates: 2013-08-26 Change expression "content creators" to "authors".
+- updates: 2013-08-26 Change expression "content creators" to "authors".
 
 -----------------
 
