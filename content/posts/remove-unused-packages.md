@@ -2,7 +2,7 @@
 
 - slug: remove-unused-packages
 - date: 2013-08-29
-- tags: arch, gnu-linux
+- tags: arch, gnu-linux, tech
 - source: http://bbs.archbang.org/viewtopic.php?id=2557
 
 -----------------
